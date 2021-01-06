@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Comfy</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- styles css -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar page">
+      <div class="nav-center">
+        <!-- Links -->
+        <div>
+          <button class="toggle-nav">
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul class="nav-links">
+            <li>
+              <a href="./index.html" class="nav-link">Home</a>
+            </li>
+            <li>
+              <a href="./products.html" class="nav-link">Products</a>
+            </li>
+            <li>
+              <a href="./about.html" class="nav-link">About</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Logo -->
+        <img src="./images/logo-black.svg" alt="Logo" class="nav-logo" />
+        <!-- Cart icon -->
+        <div class="toggle-container">
+          <button class="toggle-cart">
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+          <span class="cart-item-count">1</span>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero -->
+    <section class="page-hero">
+      <div class="section-center">
+        <h3 class="page-hero-title">Home / About</h3>
+      </div>
+    </section>
+    <!-- Sidebar -->
+    <div class="sidebar-overlay">
+      <aside class="sidebar">
+        <button class="sidebar-close">
+          <i class="fas fa-times"></i>
+        </button>
+        <!-- Links -->
+        <ul class="sidebar-links">
+          <li>
+            <a href="./index.html" class="sidebar-link">
+              <i class="fas fa-home fa-fw"></i>Home</a
+            >
+          </li>
+          <li>
+            <a href="./products.html" class="sidebar-link">
+              <i class="fas fa-couch fa-fw"></i>Products</a
+            >
+          </li>
+          <li>
+            <a href="./about.html" class="sidebar-link">
+              <i class="fas fa-book fa-fw"></i>About</a
+            >
+          </li>
+        </ul>
+      </aside>
+    </div>
+    <!-- Cart -->
+    <div class="cart-overlay">
+      <aside class="cart">
+        <button class="cart-close">
+          <i class="fas fa-times"></i>
+        </button>
+        <header>
+          <h3 class="text-slanted">Your Bag</h3>
+        </header>
+        <!-- Cart items -->
+        <div class="cart-items"></div>
+        <!-- Footer -->
+        <footer>
+          <h3 class="cart-total text-slanted">Total: $12.99</h3>
+          <button class="cart-checkout btn">Checkout</button>
+        </footer>
+      </aside>
+    </div>
+    <!-- About  -->
+    <section class="section section-center about-page">
+      <div class="title">
+        <h2><span>/</span> Our History</h2>
+      </div>
+      <p class="about-text">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus totam
+        veritatis eligendi aut veniam ducimus eveniet neque corporis doloribus
+        praesentium optio asperiores possimus numquam facere aspernatur
+        accusamus quam illum id nihil, ullam sint illo doloremque harum. Fugit,
+        consequatur. Consequuntur temporibus maxime asperiores repudiandae et,
+        officiis impedit perspiciatis illum architecto error nesciunt, velit
+        dolores! Blanditiis praesentium voluptatibus adipisci alias consectetur
+        voluptates cupiditate exercitationem officiis consequatur accusamus
+        recusandae veritatis repudiandae eius, vel maiores eum ea autem qui
+        ullam, perferendis fugiat. Pariatur, quod?
+      </p>
+    </section>
+    <script type="module" src="./src/pages/about.js"></script>
+  </body>
+</html>
